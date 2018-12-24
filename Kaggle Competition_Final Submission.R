@@ -1,13 +1,11 @@
-### APANPS5200 - APPLIED ANALYTICS FRAMEWORKS & METHODS I ###
 ### Kaggle Project ###
 ### How much for your Airbnb? ###
-### Jonathan An (ja2276) ###
 
 # Read the data
-data = read.csv(file = "/Users/jonathan/Desktop/Frameworks and Methods/Assignments/Kaggle Project/Raw Data/analysisData.csv")
+data = read.csv(file = "analysisData.csv")
                   
 # read in scoring data and apply model to generate predictions
-scoringData = read.csv(file = "/Users/jonathan/Desktop/Frameworks and Methods/Assignments/Kaggle Project/Raw Data/scoringData.csv")
+scoringData = read.csv(file = "scoringData.csv")
 
 library(dplyr)
 library(tidyr)
